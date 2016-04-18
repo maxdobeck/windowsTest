@@ -17,7 +17,9 @@ After navigating and/or creating the desired directory you will need to initiali
 
 Execute `$git init` as shown below.
 
-![Git Init](Git_Setup/init.jpg)
+![Git Init](Git_Setup/init.JPG)
+
+
 
 
 
