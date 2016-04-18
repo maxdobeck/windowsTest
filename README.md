@@ -47,14 +47,15 @@ At this point you should stop and setup the repository on Github if you haven't 
 ![Setup Repository](Git_Setup/setup_repository_on_github.JPG)
 
 ###### Putting it all together
-We've used
-[`git init`](windowsTest#Initializing)
+We've used:
 
-[`git add`](Creating and Tracking Files)
+[`git init`](#Initializing)
+
+[`git add`](#Creating-and-Tracking-Files)
 
 [`git status`](#Status)
 
-[`git commit`](Committing)
+[`git commit`](#Committing)
 
 We haven't pushed to our repository yet and it is still looking empty.  But lets say I realized that I need to change the README.txt to a README.md but I've already tracked the README.txt file!  Well git has a handy way of removing and moving files: `git rm README.txt`.  This is of course interchangeable with the `git mv README.txt README.md`  but in this case I delete the README.txt and created the '.md' file separately.
 
