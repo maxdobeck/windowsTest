@@ -48,7 +48,7 @@ At this point you should stop and setup the repository on Github if you haven't 
 
 ###### Putting it all together
 We've used
-[`git init`](#Initializing)
+[`git init`](windowsTest#Initializing)
 
 [`git add`](Creating and Tracking Files)
 
