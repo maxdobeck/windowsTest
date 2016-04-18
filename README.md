@@ -38,11 +38,26 @@ Here we start the tracking of the empty text file README.txt by specifying the f
 ###### Committing
 Committing changes is the critical step before pushing them to a repository.  This is referred to as "staging" and is used in conjuction with `git status` to see which files have and have not been tracked for a push.
 
-This commit will be run with the ` -m 'Text comment goes here'` option.  Otherwise your default editor will open and you will be forced to leave a comment.  This way you do not leave the command line.  Changing the default editor is an option.
+This commit will be run with the ` -m 'Text comment goes here'` option.  Otherwise your default editor will open and you will be forced to leave a comment.  This way you do not leave the command line.  Changing the default editor is an alternative to running with the `-m ` option.
 
 ![Committing](Git_Setup/commit_m.JPG)
 
 At this point you should stop and setup the repository on Github if you haven't already.  There are instructions there but they will be posted below.  You should also take the time to setup an SSH key with your account.
 
 ![Setup Repository](Git_Setup/setup_repository_on_github.JPG)
+
+###### Putting it all together
+We've used:
+1. `git init`
+2. `git add`
+3. `git status`
+4. `git commit`
+
+We haven't pushed to our repository yet and it is still looking empty.  But lets say I realized that I need to change the README.txt to a README.md but I've already tracked the README.txt file!  Well git has a handy way of removing and moving files: `git rm README.txt`.  This is of course interchangeable with the `git mv README.txt README.md`  but in this case I delete the README.txt and created the '.md' file separately.
+
+Below I've also tied together the whole string of commands to show what committing after those changes looks like.
+
+![completion of delete file](Git_Status/completion_of_file_delete.JPG)
+
+
 
