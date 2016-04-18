@@ -12,12 +12,21 @@ During installation you may have created a shortcut to the git bash shell or you
 
 ![Launching Git Bash](Git_Setup/launching_git_bash_shell.JPG)
 
-###### Initialize 
+###### Initializing 
 After navigating and/or creating the desired directory you will need to initialize the Git repository.  This is the barebones of a git repository and should NOT be done if you are cloning an existing repository.  This is only for starting a brand new repository.
 
-Execute `$git init` as shown below.
+Execute `$git init` as shown below.  You will see extra files created if you run `ls -a`.
 
 ![Git Init](Git_Setup/init.JPG)
+
+###### Status
+The `git status` command is useful when you've started tracking multiple changes or if you've forgotten the last time you've commited.  In this case there are no files and thus nothing has happened.  You should see the same output as below.
+
+![Git Status](Git_Setup/git_status.JPG)
+
+###### Creating and Tracking Files
+
+
 
 
 
