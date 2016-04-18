@@ -17,7 +17,7 @@ After navigating and/or creating the desired directory you will need to initiali
 
 Execute `$git init` as shown below.  You will see extra files created if you run `ls -a`.
 
-![Git Init](Git_Setup/init.JPG)
+![Git Init](Git_Setup/init.JPG align="middle")
 
 ###### Status
 The `git status` command is useful when you've started tracking multiple changes or if you've forgotten the last time you've commited.  In this case there are no files and thus nothing has happened.  You should see the same output as below.
