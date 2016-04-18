@@ -7,9 +7,22 @@ After considering running Git through a Sublime package I found that setting up 
 I downloaded the Git for Windows to essentially be a bash terminal command line interface.  Currently I'm running [version 2.8.1](https://git-for-windows.github.io/).  I chose most of the defaults for the installation which will give you the Shell integration and the GUI.  Both seem like they have their places and could be easier to use in certain situations.  For instance, you can right click from any windows explorer session and launch the GUI or the bash-like command line interface.
 
 ## Git Setup
+###### Launching
 During installation you may have created a shortcut to the git bash shell or you may have opted to use the native Windows command prompt.  I will be using the Git provided bash-like shell.  You can launch it by either searching for "Git Bash" or launching the desktop icon you created.
 
-(Git_Setup/launching_git_bash_shell.JPG)
+![Launching Git Bash](Git_Setup/launching_git_bash_shell.JPG)
+
+###### Initialize 
+After navigating and/or creating the desired directory you will need to initialize the Git repository.  This is the barebones of a git repository and should NOT be done if you are cloning an existing repository.  This is only for starting a brand new repository.
+
+Execute `$git init` as shown below.
+
+![Git Init](Git/Setup/init.jpg)
+
+
+
+
+
 
 
 
