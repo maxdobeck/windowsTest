@@ -17,7 +17,7 @@ After navigating and/or creating the desired directory you will need to initiali
 
 Execute `$git init` as shown below.  You will see extra files created if you run `ls -a`.
 
-![Git Init](src="Git_Setup/init.JPG" align="middle")
+![Git Init](Git_Setup/init.JPG)
 
 ###### Status
 The `git status` command is useful when you've started tracking multiple changes or if you've forgotten the last time you've commited.  In this case there are no files and thus nothing has happened.  You should see the same output as below.
@@ -25,19 +25,24 @@ The `git status` command is useful when you've started tracking multiple changes
 ![Git Status](Git_Setup/git_status.JPG)
 
 ###### Creating and Tracking Files
+`git add` can be used in conjuction with the `*` wildcard to grab filetypes like `*.rb` to grab specific files.  Or you can manually specify a file.  In most cases you'll want to simply upload the all files and subdirectories with `git add *`.
 
+Below I've created an empty text file using the `echo` command.  Followed by the `git status` we can see that the file is not tracked and we are prompted to track the file.
 
+![create readme](Git_Setup/create_readme.JPG)
 
+Here we start the tracking of the empty text file README.txt by specifying the file name.  The command `git add *` would have done the job as well.
 
+![track file](Git_Setup/add_readme.JPG)
 
+###### Committing
+Committing changes is the critical step before pushing them to a repository.  This is referred to as "staging" and is used in conjuction with `git status` to see which files have and have not been tracked for a push.
 
+This commit will be run with the ` -m 'Text comment goes here'` option.  Otherwise your default editor will open and you will be forced to leave a comment.  This way you do not leave the command line.  Changing the default editor is an option.
 
+![Committing](Git_Setup/commit_m.JPG)
 
+At this point you should stop and setup the repository on Github if you haven't already.  There are instructions there but they will be posted below.  You should also take the time to setup an SSH key with your account.
 
-
-
-
-
-
-
+![Setup Repository](Git_Setup/setup_repository_on_github.JPG)
 
