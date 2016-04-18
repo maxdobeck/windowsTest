@@ -57,7 +57,7 @@ We haven't pushed to our repository yet and it is still looking empty.  But lets
 
 Below I've also tied together the whole string of commands to show what committing after those changes looks like.
 
-![completion of delete file](Git_Status/completion_of_file_delete.JPG)
+![completion of delete file](Git_Setup/completion_of_file_delete.JPG)
 
 
 
