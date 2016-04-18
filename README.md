@@ -9,7 +9,7 @@ I downloaded the Git for Windows to essentially be a bash terminal command line 
 ## Git Setup
 During installation you may have created a shortcut to the git bash shell or you may have opted to use the native Windows command prompt.  I will be using the Git provided bash-like shell.  You can launch it by either searching for "Git Bash" or launching the desktop icon you created.
 
-![Relative Link](Git_Setup/launching_git_bash_shell.JPG)
+(Git_Setup/launching_git_bash_shell.JPG)
 
 
 
